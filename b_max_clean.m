@@ -1,53 +1,18 @@
-function [bs, node_offsets] = b_maximization(config_file, weights)
+function [bs, node_offsets] = b_max_clean(config_file, path_ids, lambda)
 
 % load scenario
-X = ScenarioContainer(config_file);
+X = ScenarioContainerPathIDs(config_file, path_ids);
 all_paths = X.get_all_paths;
 all_intersections = X.get_all_intersections;
 all_movements = X.get_all_movements;
 
 cycle = X.get_common_cycle();
-% setting the weights in the cost function
-lambda = weights;
-% for path_id = cell2mat(all_paths.keys)
-%     
-%     lambda(path_id) = 1; % uniform weights
-% end
-% non_zero_path_ids = []
-% for lambda_id = lambda.keys
-%     weight = lambda(cell2mat(lambda_id));
-%     if weight ~= 0
-%         non_zero_path_ids = [non_zero_path_ids; cell2mat(lambda_id)];
-%     end
-% end
-% 
-% all_paths_temp = 
-% 
-% all_paths = all_paths(non_zero_path_ids);
-% 
-% 
-% % removing the irrelavent intersections
-% intetr_ids_to_keep = [];
-% for nod_id = all_intersections.keys
-%    intersection = all_intersections(cell2mat(nod_id)); 
-%    intersection_paths = intersection.paths;
-%    intersection_path_ids = arrayfun(@(z) z.id, intersection_paths);
-%    for  i = intersection_path_ids
-%        if ismember(i, all_paths)
-%            intersection.paths(i) = [];
-%        end
-%    end
-%    
-% end
-
 % constructing the cost
 cost = 0;
 for path_id = cell2mat(all_paths.keys)
     
     cost = cost + lambda(path_id) * all_paths(path_id).b_variable;
 end
-% cost = cost + 1.2*all_paths(1).b_variable;
-% cost = cost + all_paths(2).b_variable;
 
 % constructing the box constraints
 box_cnst = [];
