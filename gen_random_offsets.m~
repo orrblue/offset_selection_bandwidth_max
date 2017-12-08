@@ -28,8 +28,11 @@ function [] = gen_random_offsets(config_file, cycle_time, save_name)
             error('sum(cind)~=1')
         end
         X.scenario.scenario.controllers.controller(cind).schedule.schedule_item.ATTRIBUTE.offset = offset;
+        
     end
     
     X.scenario.save(fullfile(here,save_name));
-end
 
+    
+
+end
