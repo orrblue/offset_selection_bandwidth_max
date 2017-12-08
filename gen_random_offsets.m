@@ -1,7 +1,8 @@
-% possible bug: 
-% If target_actuator in xml has more than one id, this might not work
+%{
+ Possible bug: 
+ if target_actuator in xml has more than one id, this might not work
 
-
+%}
 
 function [] = gen_random_offsets(config_file, cycle_time, save_name)
 

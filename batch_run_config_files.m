@@ -3,6 +3,7 @@
 1. Support other types of outputs and find elegant way to implement feature
 2. Test
 3. Find best way to represent data
+4. Make sure it's okay to use ScenarioContainer instead of Scenario
 
 
 Currently supported types of outputs:
