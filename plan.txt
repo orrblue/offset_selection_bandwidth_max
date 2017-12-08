@@ -1,0 +1,27 @@
+
+Priority: 
+
+1.
+MATLAB Function that:
+Take in config file and number of paths to optimize on —> return map of optimized offsets
+More features:
+	+ user wants to optimize on all paths by default
+
+
+2.
+MATLAB Function that:
+Take in config file -> return map of random offsets
+
+
+3.
+MATLAB Function that:
+Take in map of node_id : offsets —> return new config file with optimized offsets 
+
+
+4.
+MATLAB Function that:
+Take in config file, parameters, result types —> run BeATS —> return results in a file
+
+
+
+

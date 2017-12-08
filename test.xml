@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+   <commodities>
+      <commodity id="1" name="bla" pathfull="true" subnetworks="1,2,3,4,5,6,7"/>
+   </commodities>
+   <network>
+      <nodes>
+         <node id="37607" x="-13029110.4637" y="2321016.3576"/>
+         <node id="48494" x="-13028553.3686" y="2321072.551"/>
+         <node id="37606" x="-13029115.692" y="2321099.6254"/>
+         <node id="49395" x="-13028603.3158" y="2320706.8353"/>
+         <node id="37872" x="-13028611.9926" y="2320867.7305"/>
+         <node id="49394" x="-13028580.289" y="2320568.1496"/>
+         <node id="37605" x="-13029079.6499" y="2320864.4872"/>
+         <node id="48493" x="-13028792.2031" y="2321809.341"/>
+         <node id="37593" x="-13029031.4826" y="2320563.7077"/>
+         <node id="37612" x="-13029189.4448" y="2321994.7018"/>
+         <node id="37610" x="-13029055.0657" y="2321369.1002"/>
+         <node id="49954" x="-13028502.5315" y="2321573.4272"/>
+         <node id="48492" x="-13028463.7084" y="2321373.1895"/>
+         <node id="1497560" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22621512351" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22621051721892" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22621051721893" x="-13028822.2468" y="2321144.5542"/>
+         <node id="2262109217801" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22621231752107" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22621231752108" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22621251752109" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22620992350" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22621251752111" x="-13028822.2468" y="2321144.5542"/>
+         <node id="2132904" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22621012370" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22621532371" x="-13028822.2468" y="2321144.5542"/>
+         <node id="226215516462" x="-13028822.2468" y="2321144.5542"/>
+         <node id="216441" x="-13028822.2468" y="2321144.5542"/>
+         <node id="22621311201" x="-13028822.2468" y="2321144.5542"/>
+         <node id="378730001" x="-13028822.2468" y="2321144.5542"/>
+         <node id="378730000" x="-13028822.2468" y="2321144.5542"/>
+         <node id="2262111217793" x="-13028822.2468" y="2321144.5542"/>
+         <node id="2262111217794" x="-13028822.2468" y="2321144.5542"/>
+         <node id="2262109217802" x="-13028822.2468" y="2321144.5542"/>
+         <node id="376130001" x="-13028822.2468" y="2321144.5542"/>
+         <node id="376130000" x="-13028822.2468" y="2321144.5542"/>
+         <node id="216306" x="-13028822.2468" y="2321144.5542"/>
+      </nodes>
+      <links>
+         <link end_node_id="37593" full_lanes="2" id="2370" length="98.907" roadparam="1" start_node_id="22621012370"/>
+         <link end_node_id="37606" full_lanes="3" id="733" length="396.7452" roadparam="2" start_node_id="37610"/>
+         <link end_node_id="37606" full_lanes="3" id="16468" length="462.6823" roadparam="3" start_node_id="48494"/>
+         <link end_node_id="48494" full_lanes="2" id="20477" length="471.623" roadparam="3" start_node_id="48492"/>
+         <link end_node_id="2262111217793" full_lanes="1" id="217793" length="29.5151" roadparam="4" start_node_id="37606"/>
+         <link end_node_id="48493" full_lanes="1" id="1721892" length="32.9874" roadparam="4" start_node_id="22621051721892"/>
+         <link end_node_id="2262109217802" full_lanes="1" id="217802" length="34.7236" roadparam="4" start_node_id="48492"/>
+         <link end_node_id="48493" full_lanes="2" id="20475" length="452.6244" roadparam="5" start_node_id="37612"/>
+         <link end_node_id="48494" full_lanes="2" id="16467" length="453.7415" roadparam="3" start_node_id="37606"/>
+         <link end_node_id="37607" full_lanes="3" id="216305" length="222.9599" roadparam="1" start_node_id="216306"/>
+         <link end_node_id="37610" full_lanes="3" id="20472" length="467.9916" roadparam="6" start_node_id="48492"/>
+         <link end_node_id="48492" full_lanes="3" id="24564" length="296.7204" roadparam="5" start_node_id="49954"/>
+         <link end_node_id="37872" full_lanes="5" id="23005" length="217.0916" roadparam="7" start_node_id="49395"/>
+         <link end_node_id="48494" full_lanes="3" id="20482" length="286.103" roadparam="3" start_node_id="37872"/>
+         <link end_node_id="37872" full_lanes="7" id="1085" length="348.1288" roadparam="7" start_node_id="37605"/>
+         <link end_node_id="49394" full_lanes="3" id="23003" length="352.0404" roadparam="7" start_node_id="37593"/>
+         <link end_node_id="37593" full_lanes="2" id="23004" length="353.9962" roadparam="7" start_node_id="49394"/>
+         <link end_node_id="378730000" full_lanes="3" id="1206" length="193.6222" roadparam="7" start_node_id="37605"/>
+         <link end_node_id="22621512351" full_lanes="2" id="2351" length="118.7441" roadparam="6" start_node_id="37610"/>
+         <link end_node_id="37605" full_lanes="6" id="1205" length="191.6664" roadparam="7" start_node_id="378730001"/>
+         <link end_node_id="37612" full_lanes="4" id="738" length="966.7171" roadparam="2" start_node_id="37610"/>
+         <link end_node_id="37606" full_lanes="1" id="217794" length="29.5151" roadparam="4" start_node_id="2262111217794"/>
+         <link end_node_id="37610" full_lanes="4" id="734" length="391.1572" roadparam="2" start_node_id="37606"/>
+         <link end_node_id="49395" full_lanes="3" id="1752111" length="52.0854" roadparam="4" start_node_id="22621251752111"/>
+         <link end_node_id="37593" full_lanes="4" id="1497559" length="375.5102" roadparam="3" start_node_id="1497560"/>
+         <link end_node_id="37605" full_lanes="5" id="709" length="324.1011" roadparam="3" start_node_id="37593"/>
+         <link end_node_id="226215516462" full_lanes="2" id="16462" length="224.6363" roadparam="1" start_node_id="37607"/>
+         <link end_node_id="37606" full_lanes="3" id="728" length="103.6563" roadparam="7" start_node_id="37607"/>
+         <link end_node_id="48492" full_lanes="2" id="20471" length="467.9916" roadparam="6" start_node_id="37610"/>
+         <link end_node_id="37605" full_lanes="5" id="216323" length="205.3569" roadparam="7" start_node_id="37607"/>
+         <link end_node_id="22621532371" full_lanes="1" id="2371" length="88.8487" roadparam="1" start_node_id="37593"/>
+         <link end_node_id="48492" full_lanes="2" id="217801" length="34.7236" roadparam="4" start_node_id="2262109217801"/>
+         <link end_node_id="49954" full_lanes="3" id="24565" length="301.7496" roadparam="5" start_node_id="48492"/>
+         <link end_node_id="37610" full_lanes="3" id="2350" length="120.1411" roadparam="6" start_node_id="22620992350"/>
+         <link end_node_id="37593" full_lanes="3" id="708" length="440.3305" roadparam="3" start_node_id="37605"/>
+         <link end_node_id="2132904" full_lanes="2" id="831" length="379.9806" roadparam="3" start_node_id="37593"/>
+         <link end_node_id="37605" full_lanes="6" id="1204" length="352.0404" roadparam="7" start_node_id="37872"/>
+         <link end_node_id="37607" full_lanes="4" id="732" length="201.4453" roadparam="7" start_node_id="37605"/>
+         <link end_node_id="22621051721893" full_lanes="1" id="1721893" length="32.9874" roadparam="4" start_node_id="48493"/>
+         <link end_node_id="37612" full_lanes="4" id="741" length="449.8308" roadparam="2" start_node_id="376130001"/>
+         <link end_node_id="37872" full_lanes="7" id="216440" length="101.7006" roadparam="7" start_node_id="216441"/>
+         <link end_node_id="49395" full_lanes="3" id="24549" length="201.4453" roadparam="7" start_node_id="49394"/>
+         <link end_node_id="376130000" full_lanes="3" id="742" length="461.0067" roadparam="2" start_node_id="37612"/>
+         <link end_node_id="37610" full_lanes="4" id="737" length="966.7171" roadparam="2" start_node_id="37612"/>
+         <link end_node_id="49394" full_lanes="2" id="24550" length="203.4011" roadparam="7" start_node_id="49395"/>
+         <link end_node_id="49395" full_lanes="2" id="1752107" length="52.0854" roadparam="4" start_node_id="22621231752107"/>
+         <link end_node_id="22621231752108" full_lanes="2" id="1752108" length="52.0854" roadparam="4" start_node_id="49395"/>
+         <link end_node_id="49954" full_lanes="2" id="24562" length="435.0223" roadparam="5" start_node_id="48493"/>
+         <link end_node_id="48493" full_lanes="3" id="24563" length="435.0223" roadparam="5" start_node_id="49954"/>
+         <link end_node_id="48492" full_lanes="3" id="20478" length="480.5637" roadparam="3" start_node_id="48494"/>
+         <link end_node_id="37872" full_lanes="5" id="20481" length="290.5734" roadparam="3" start_node_id="48494"/>
+         <link end_node_id="37607" full_lanes="3" id="727" length="103.6563" roadparam="7" start_node_id="37606"/>
+         <link end_node_id="49395" full_lanes="4" id="23006" length="219.0474" roadparam="7" start_node_id="37872"/>
+         <link end_node_id="22621311201" full_lanes="5" id="1201" length="199.4896" roadparam="7" start_node_id="37872"/>
+         <link end_node_id="37612" full_lanes="3" id="20476" length="465.1973" roadparam="5" start_node_id="48493"/>
+         <link end_node_id="22621251752109" full_lanes="2" id="1752109" length="52.0854" roadparam="4" start_node_id="49395"/>
+      </links>
+      <roadparams>
+         <roadparam capacity="1500" id="1" jam_density="200" speed="60.35"/>
+         <roadparam capacity="1500" id="2" jam_density="200" speed="100.5833"/>
+         <roadparam capacity="1500" id="3" jam_density="200" speed="80.4665"/>
+         <roadparam capacity="1500" id="4" jam_density="200" speed="62.5025"/>
+         <roadparam capacity="1500" id="5" jam_density="200" speed="90.5249"/>
+         <roadparam capacity="1500" id="6" jam_density="200" speed="50.2916"/>
+         <roadparam capacity="1500" id="7" jam_density="200" speed="70.4081"/>
+      </roadparams>
+      <roadconnections>
+         <roadconnection id="708831" in_link="708" in_link_lanes="2#3" out_link="831"/>
+         <roadconnection id="7082371" in_link="708" in_link_lanes="3#3" out_link="2371"/>
+         <roadconnection id="70823003" in_link="708" in_link_lanes="1#1" out_link="23003"/>
+         <roadconnection id="1497559709" in_link="1497559" in_link_lanes="2#3" out_link="709"/>
+         <roadconnection id="14975592371" in_link="1497559" in_link_lanes="1#1" out_link="2371"/>
+         <roadconnection id="149755923003" in_link="1497559" in_link_lanes="4#4" out_link="23003"/>
+         <roadconnection id="237023003" in_link="2370" in_link_lanes="2#2" out_link="23003"/>
+         <roadconnection id="2370831" in_link="2370" in_link_lanes="2#2" out_link="831"/>
+         <roadconnection id="2370709" in_link="2370" in_link_lanes="1#1" out_link="709"/>
+         <roadconnection id="23004831" in_link="23004" in_link_lanes="1#1" out_link="831"/>
+         <roadconnection id="230042371" in_link="23004" in_link_lanes="2#2" out_link="2371"/>
+         <roadconnection id="23004709" in_link="23004" in_link_lanes="2#2" out_link="709"/>
+         <roadconnection id="2300324549" in_link="23003" in_link_lanes="1#1" out_link="24549"/>
+         <roadconnection id="2455023004" in_link="24550" in_link_lanes="2#2" out_link="23004"/>
+         <roadconnection id="7091206" in_link="709" in_link_lanes="1#2" out_link="1206"/>
+         <roadconnection id="709732" in_link="709" in_link_lanes="3#4" out_link="732"/>
+         <roadconnection id="7091085" in_link="709" in_link_lanes="5#5" out_link="1085"/>
+         <roadconnection id="2163231085" in_link="216323" in_link_lanes="1#2" out_link="1085"/>
+         <roadconnection id="216323708" in_link="216323" in_link_lanes="3#4" out_link="708"/>
+         <roadconnection id="2163231206" in_link="216323" in_link_lanes="5#5" out_link="1206"/>
+         <roadconnection id="1204732" in_link="1204" in_link_lanes="6#6" out_link="732"/>
+         <roadconnection id="1204708" in_link="1204" in_link_lanes="1#2" out_link="708"/>
+         <roadconnection id="12041085" in_link="1204" in_link_lanes="1#1" out_link="1085"/>
+         <roadconnection id="12041206" in_link="1204" in_link_lanes="3#5" out_link="1206"/>
+         <roadconnection id="1205708" in_link="1205" in_link_lanes="6#6" out_link="708"/>
+         <roadconnection id="1205732" in_link="1205" in_link_lanes="1#2" out_link="732"/>
+         <roadconnection id="12051085" in_link="1205" in_link_lanes="3#5" out_link="1085"/>
+         <roadconnection id="2300624550" in_link="23006" in_link_lanes="3#4" out_link="24550"/>
+         <roadconnection id="230061752109" in_link="23006" in_link_lanes="4#4" out_link="1752109"/>
+         <roadconnection id="230061752108" in_link="23006" in_link_lanes="1#2" out_link="1752108"/>
+         <roadconnection id="245491752109" in_link="24549" in_link_lanes="1#1" out_link="1752109"/>
+         <roadconnection id="2454923005" in_link="24549" in_link_lanes="2#3" out_link="23005"/>
+         <roadconnection id="245491752108" in_link="24549" in_link_lanes="3#3" out_link="1752108"/>
+         <roadconnection id="175211124550" in_link="1752111" in_link_lanes="3#3" out_link="24550"/>
+         <roadconnection id="17521111752108" in_link="1752111" in_link_lanes="3#3" out_link="1752108"/>
+         <roadconnection id="175211123005" in_link="1752111" in_link_lanes="1#2" out_link="23005"/>
+         <roadconnection id="17521071752109" in_link="1752107" in_link_lanes="2#2" out_link="1752109"/>
+         <roadconnection id="175210723005" in_link="1752107" in_link_lanes="2#2" out_link="23005"/>
+         <roadconnection id="175210724550" in_link="1752107" in_link_lanes="1#1" out_link="24550"/>
+         <roadconnection id="727216323" in_link="727" in_link_lanes="2#3" out_link="216323"/>
+         <roadconnection id="72716462" in_link="727" in_link_lanes="3#3" out_link="16462"/>
+         <roadconnection id="732216323" in_link="732" in_link_lanes="1#1" out_link="216323"/>
+         <roadconnection id="73216462" in_link="732" in_link_lanes="1#2" out_link="16462"/>
+         <roadconnection id="732728" in_link="732" in_link_lanes="3#4" out_link="728"/>
+         <roadconnection id="216305728" in_link="216305" in_link_lanes="1#1" out_link="728"/>
+         <roadconnection id="216305216323" in_link="216305" in_link_lanes="2#3" out_link="216323"/>
+         <roadconnection id="2164401204" in_link="216440" in_link_lanes="3#6" out_link="1204"/>
+         <roadconnection id="21644020482" in_link="216440" in_link_lanes="7#7" out_link="20482"/>
+         <roadconnection id="21644023006" in_link="216440" in_link_lanes="1#2" out_link="23006"/>
+         <roadconnection id="10851204" in_link="1085" in_link_lanes="1#1" out_link="1204"/>
+         <roadconnection id="108520482" in_link="1085" in_link_lanes="1#2" out_link="20482"/>
+         <roadconnection id="108523006" in_link="1085" in_link_lanes="7#7" out_link="23006"/>
+         <roadconnection id="10851201" in_link="1085" in_link_lanes="3#7" out_link="1201"/>
+         <roadconnection id="230051201" in_link="23005" in_link_lanes="4#5" out_link="1201"/>
+         <roadconnection id="230051204" in_link="23005" in_link_lanes="1#2" out_link="1204"/>
+         <roadconnection id="2300520482" in_link="23005" in_link_lanes="3#4" out_link="20482"/>
+         <roadconnection id="2300523006" in_link="23005" in_link_lanes="1#1" out_link="23006"/>
+         <roadconnection id="204811204" in_link="20481" in_link_lanes="5#5" out_link="1204"/>
+         <roadconnection id="2048123006" in_link="20481" in_link_lanes="4#4" out_link="23006"/>
+         <roadconnection id="204811201" in_link="20481" in_link_lanes="1#3" out_link="1201"/>
+         <roadconnection id="728217793" in_link="728" in_link_lanes="1#1" out_link="217793"/>
+         <roadconnection id="728734" in_link="728" in_link_lanes="2#3" out_link="734"/>
+         <roadconnection id="72816467" in_link="728" in_link_lanes="3#3" out_link="16467"/>
+         <roadconnection id="733217793" in_link="733" in_link_lanes="3#3" out_link="217793"/>
+         <roadconnection id="73316467" in_link="733" in_link_lanes="1#1" out_link="16467"/>
+         <roadconnection id="733727" in_link="733" in_link_lanes="2#3" out_link="727"/>
+         <roadconnection id="16468727" in_link="16468" in_link_lanes="1#2" out_link="727"/>
+         <roadconnection id="16468734" in_link="16468" in_link_lanes="3#3" out_link="734"/>
+         <roadconnection id="16468217793" in_link="16468" in_link_lanes="2#2" out_link="217793"/>
+         <roadconnection id="217794727" in_link="217794" in_link_lanes="1#1" out_link="727"/>
+         <roadconnection id="21779416467" in_link="217794" in_link_lanes="1#1" out_link="16467"/>
+         <roadconnection id="217794734" in_link="217794" in_link_lanes="1#1" out_link="734"/>
+         <roadconnection id="2047716468" in_link="20477" in_link_lanes="2#2" out_link="16468"/>
+         <roadconnection id="2047720481" in_link="20477" in_link_lanes="1#2" out_link="20481"/>
+         <roadconnection id="1646716468" in_link="16467" in_link_lanes="1#1" out_link="16468"/>
+         <roadconnection id="1646720481" in_link="16467" in_link_lanes="2#2" out_link="20481"/>
+         <roadconnection id="1646720478" in_link="16467" in_link_lanes="1#1" out_link="20478"/>
+         <roadconnection id="2048220478" in_link="20482" in_link_lanes="2#3" out_link="20478"/>
+         <roadconnection id="2048216468" in_link="20482" in_link_lanes="1#1" out_link="16468"/>
+         <roadconnection id="734738" in_link="734" in_link_lanes="2#4" out_link="738"/>
+         <roadconnection id="7342351" in_link="734" in_link_lanes="1#1" out_link="2351"/>
+         <roadconnection id="73420471" in_link="734" in_link_lanes="4#4" out_link="20471"/>
+         <roadconnection id="73720471" in_link="737" in_link_lanes="1#1" out_link="20471"/>
+         <roadconnection id="737733" in_link="737" in_link_lanes="2#4" out_link="733"/>
+         <roadconnection id="7372351" in_link="737" in_link_lanes="4#4" out_link="2351"/>
+         <roadconnection id="2350738" in_link="2350" in_link_lanes="1#1" out_link="738"/>
+         <roadconnection id="2350733" in_link="2350" in_link_lanes="3#3" out_link="733"/>
+         <roadconnection id="235020471" in_link="2350" in_link_lanes="2#3" out_link="20471"/>
+         <roadconnection id="20472733" in_link="20472" in_link_lanes="1#1" out_link="733"/>
+         <roadconnection id="20472738" in_link="20472" in_link_lanes="3#3" out_link="738"/>
+         <roadconnection id="204722351" in_link="20472" in_link_lanes="2#3" out_link="2351"/>
+         <roadconnection id="2047120477" in_link="20471" in_link_lanes="2#2" out_link="20477"/>
+         <roadconnection id="2047124565" in_link="20471" in_link_lanes="1#1" out_link="24565"/>
+         <roadconnection id="20471217802" in_link="20471" in_link_lanes="1#1" out_link="217802"/>
+         <roadconnection id="2047820472" in_link="20478" in_link_lanes="1#1" out_link="20472"/>
+         <roadconnection id="2047824565" in_link="20478" in_link_lanes="2#3" out_link="24565"/>
+         <roadconnection id="20478217802" in_link="20478" in_link_lanes="3#3" out_link="217802"/>
+         <roadconnection id="2456420472" in_link="24564" in_link_lanes="3#3" out_link="20472"/>
+         <roadconnection id="2456420477" in_link="24564" in_link_lanes="2#3" out_link="20477"/>
+         <roadconnection id="24564217802" in_link="24564" in_link_lanes="1#1" out_link="217802"/>
+         <roadconnection id="21780120472" in_link="217801" in_link_lanes="2#2" out_link="20472"/>
+         <roadconnection id="21780120477" in_link="217801" in_link_lanes="1#1" out_link="20477"/>
+         <roadconnection id="21780124565" in_link="217801" in_link_lanes="2#2" out_link="24565"/>
+         <roadconnection id="2456224564" in_link="24562" in_link_lanes="1#2" out_link="24564"/>
+         <roadconnection id="2456524563" in_link="24565" in_link_lanes="2#3" out_link="24563"/>
+         <roadconnection id="2047524562" in_link="20475" in_link_lanes="1#2" out_link="24562"/>
+         <roadconnection id="204751721893" in_link="20475" in_link_lanes="2#2" out_link="1721893"/>
+         <roadconnection id="2456320476" in_link="24563" in_link_lanes="2#3" out_link="20476"/>
+         <roadconnection id="245631721893" in_link="24563" in_link_lanes="1#1" out_link="1721893"/>
+         <roadconnection id="172189220476" in_link="1721892" in_link_lanes="1#1" out_link="20476"/>
+         <roadconnection id="172189224562" in_link="1721892" in_link_lanes="1#1" out_link="24562"/>
+         <roadconnection id="738742" in_link="738" in_link_lanes="2#4" out_link="742"/>
+         <roadconnection id="73820475" in_link="738" in_link_lanes="4#4" out_link="20475"/>
+         <roadconnection id="738737" in_link="738" in_link_lanes="1#1" out_link="737"/>
+         <roadconnection id="741737" in_link="741" in_link_lanes="2#4" out_link="737"/>
+         <roadconnection id="74120475" in_link="741" in_link_lanes="1#1" out_link="20475"/>
+         <roadconnection id="20476737" in_link="20476" in_link_lanes="1#1" out_link="737"/>
+         <roadconnection id="20476742" in_link="20476" in_link_lanes="2#3" out_link="742"/>
+      </roadconnections>
+   </network>
+   <actuators>
+      <actuator id="37593" type="signal">
+         <actuator_target id="37593" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="23004831,2370709"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="237023003,230042371"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="14975592371,70823003"/>
+            <phase id="4" min_green_time="0" roadconnection_ids="708831,1497559709"/>
+         </signal>
+      </actuator>
+      <actuator id="49394" type="signal">
+         <actuator_target id="49394" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="2300324549"/>
+         </signal>
+      </actuator>
+      <actuator id="37605" type="signal">
+         <actuator_target id="37605" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="1204708,12041085,1205732"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="12051085,12041206"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="7091206,2163231085"/>
+            <phase id="4" min_green_time="0" roadconnection_ids="216323708,709732"/>
+         </signal>
+      </actuator>
+      <actuator id="49395" type="signal">
+         <actuator_target id="49395" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="175210724550,175211123005"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="17521111752108,17521071752109"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="245491752109,230061752108"/>
+            <phase id="4" min_green_time="0" roadconnection_ids="2300624550,2454923005"/>
+         </signal>
+      </actuator>
+      <actuator id="37607" type="signal">
+         <actuator_target id="37607" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="216305728"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="73216462,732216323,732728"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="727216323"/>
+         </signal>
+      </actuator>
+      <actuator id="37872" type="signal">
+         <actuator_target id="37872" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="21644023006,108520482,10851204"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="10851201,2164401204"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="230051204,204811201"/>
+            <phase id="4" min_green_time="0" roadconnection_ids="2048123006,2300520482,2300523006"/>
+         </signal>
+      </actuator>
+      <actuator id="37606" type="signal">
+         <actuator_target id="37606" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="16468727,217794734"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="21779416467,16468217793"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="728217793,73316467"/>
+            <phase id="4" min_green_time="0" roadconnection_ids="733727,728734"/>
+         </signal>
+      </actuator>
+      <actuator id="48494" type="signal">
+         <actuator_target id="48494" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="1646716468,1646720478"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="2048216468,2048220478"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="2047720481"/>
+         </signal>
+      </actuator>
+      <actuator id="37610" type="signal">
+         <actuator_target id="37610" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="20472733,2350738"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="235020471,204722351"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="7342351,73720471"/>
+            <phase id="4" min_green_time="0" roadconnection_ids="737733,734738"/>
+         </signal>
+      </actuator>
+      <actuator id="48492" type="signal">
+         <actuator_target id="48492" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="21780120477,21780120472"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="20471217802,2047124565"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="2047820472,24564217802"/>
+            <phase id="4" min_green_time="0" roadconnection_ids="2456420477,2047824565"/>
+         </signal>
+      </actuator>
+      <actuator id="49954" type="signal">
+         <actuator_target id="49954" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="2456224564,2456524563"/>
+         </signal>
+      </actuator>
+      <actuator id="48493" type="signal">
+         <actuator_target id="48493" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="172189220476"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="245631721893,2456320476"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="2047524562"/>
+         </signal>
+      </actuator>
+      <actuator id="37612" type="signal">
+         <actuator_target id="37612" type="node"/>
+         <signal>
+            <phase id="1" min_green_time="0" roadconnection_ids="20476737"/>
+            <phase id="2" min_green_time="0" roadconnection_ids="741737,74120475"/>
+            <phase id="3" min_green_time="0" roadconnection_ids="738742,738737"/>
+         </signal>
+      </actuator>
+   </actuators>
+   <controllers>
+      <controller id="1" type="sig_pretimed">
+         <target_actuators ids="37593"/>
+         <schedule>
+            <schedule_item cycle="90" offset="63.95">
+               <stages>
+                  <stage duration="16.4" order="1" phases="1"/>
+                  <stage duration="16.5" order="2" phases="2"/>
+                  <stage duration="24.5" order="3" phases="3"/>
+                  <stage duration="32.6" order="4" phases="4"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="2" type="sig_pretimed">
+         <target_actuators ids="49394"/>
+         <schedule>
+            <schedule_item cycle="90" offset="0">
+               <stages>
+                  <stage duration="22.5" order="1" phases="1"/>
+                  <stage duration="22.5" order="2" phases="1"/>
+                  <stage duration="22.5" order="3" phases="1"/>
+                  <stage duration="22.5" order="4" phases="1"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="3" type="sig_pretimed">
+         <target_actuators ids="37605"/>
+         <schedule>
+            <schedule_item cycle="90" offset="14.5">
+               <stages>
+                  <stage duration="29" order="1" phases="1"/>
+                  <stage duration="20" order="2" phases="2"/>
+                  <stage duration="18.3" order="3" phases="3"/>
+                  <stage duration="22.7" order="4" phases="4"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="4" type="sig_pretimed">
+         <target_actuators ids="49395"/>
+         <schedule>
+            <schedule_item cycle="90" offset="38">
+               <stages>
+                  <stage duration="20" order="1" phases="1"/>
+                  <stage duration="12.8" order="2" phases="2"/>
+                  <stage duration="27.3" order="3" phases="3"/>
+                  <stage duration="29.9" order="4" phases="4"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="5" type="sig_pretimed">
+         <target_actuators ids="37607"/>
+         <schedule>
+            <schedule_item cycle="90" offset="89.85">
+               <stages>
+                  <stage duration="38.6" order="1" phases="1"/>
+                  <stage duration="29.7" order="2" phases="2"/>
+                  <stage duration="21.7" order="3" phases="3"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="6" type="sig_pretimed">
+         <target_actuators ids="37872"/>
+         <schedule>
+            <schedule_item cycle="90" offset="67.35">
+               <stages>
+                  <stage duration="38" order="1" phases="1"/>
+                  <stage duration="24.5" order="2" phases="2"/>
+                  <stage duration="11" order="3" phases="3"/>
+                  <stage duration="16.5" order="4" phases="4"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="7" type="sig_pretimed">
+         <target_actuators ids="37606"/>
+         <schedule>
+            <schedule_item cycle="90" offset="59.1">
+               <stages>
+                  <stage duration="38" order="1" phases="1"/>
+                  <stage duration="19.2" order="2" phases="2"/>
+                  <stage duration="15.5" order="3" phases="3"/>
+                  <stage duration="17.3" order="4" phases="4"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="8" type="sig_pretimed">
+         <target_actuators ids="48494"/>
+         <schedule>
+            <schedule_item cycle="90" offset="41.55">
+               <stages>
+                  <stage duration="38.6" order="1" phases="1"/>
+                  <stage duration="28.9" order="2" phases="2"/>
+                  <stage duration="22.5" order="3" phases="3"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="9" type="sig_pretimed">
+         <target_actuators ids="37610"/>
+         <schedule>
+            <schedule_item cycle="90" offset="73.1">
+               <stages>
+                  <stage duration="38" order="1" phases="1"/>
+                  <stage duration="15.5" order="2" phases="2"/>
+                  <stage duration="15.5" order="3" phases="3"/>
+                  <stage duration="21" order="4" phases="4"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="10" type="sig_pretimed">
+         <target_actuators ids="48492"/>
+         <schedule>
+            <schedule_item cycle="90" offset="87.95">
+               <stages>
+                  <stage duration="11" order="1" phases="1"/>
+                  <stage duration="38" order="2" phases="2"/>
+                  <stage duration="17.3" order="3" phases="3"/>
+                  <stage duration="23.7" order="4" phases="4"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="11" type="sig_pretimed">
+         <target_actuators ids="49954"/>
+         <schedule>
+            <schedule_item cycle="90" offset="0">
+               <stages>
+                  <stage duration="22.5" order="1" phases="1"/>
+                  <stage duration="22.5" order="2" phases="1"/>
+                  <stage duration="22.5" order="3" phases="1"/>
+                  <stage duration="22.5" order="4" phases="1"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="12" type="sig_pretimed">
+         <target_actuators ids="48493"/>
+         <schedule>
+            <schedule_item cycle="90" offset="0">
+               <stages>
+                  <stage duration="47.6" order="1" phases="1"/>
+                  <stage duration="16.2" order="2" phases="2"/>
+                  <stage duration="26.2" order="3" phases="3"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+      <controller id="13" type="sig_pretimed">
+         <target_actuators ids="37612"/>
+         <schedule>
+            <schedule_item cycle="90" offset="17.7">
+               <stages>
+                  <stage duration="56.6" order="1" phases="1"/>
+                  <stage duration="16.2" order="2" phases="2"/>
+                  <stage duration="17.2" order="3" phases="3"/>
+               </stages>
+            </schedule_item>
+         </schedule>
+      </controller>
+   </controllers>
+   <subnetworks>
+      <subnetwork id="1">1497559,709,1085,20482,20478,217802</subnetwork>
+      <subnetwork id="2">1497559,709,732,728,734,738,742</subnetwork>
+      <subnetwork id="3">2350,733,16467,20481,23006,1752108</subnetwork>
+      <subnetwork id="4">216440,1204,732,16462</subnetwork>
+      <subnetwork id="5">217801,20477,20481,1204,1206</subnetwork>
+      <subnetwork id="6">1752111,23005,20482,16468,217793</subnetwork>
+      <subnetwork id="7">1205,732,728,734,738,742</subnetwork>
+   </subnetworks>
+   <demands>
+      <demand commodity_id="1" dt="900" start_time="0" subnetwork="1">200</demand>
+      <demand commodity_id="1" dt="900" start_time="0" subnetwork="2">200</demand>
+      <demand commodity_id="1" dt="900" start_time="0" subnetwork="3">200</demand>
+      <demand commodity_id="1" dt="900" start_time="0" subnetwork="4">200</demand>
+      <demand commodity_id="1" dt="900" start_time="0" subnetwork="5">200</demand>
+      <demand commodity_id="1" dt="900" start_time="0" subnetwork="6">200</demand>
+      <demand commodity_id="1" dt="900" start_time="0" subnetwork="7">200</demand>
+   </demands>
+</scenario>
