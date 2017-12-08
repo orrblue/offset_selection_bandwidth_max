@@ -1,23 +1,40 @@
-%{ 
- TODO:
-1. Support other types of outputs and find elegant way to implement feature
-2. Test
-3. Find best way to represent data
-4. Make sure it's okay to use ScenarioContainer instead of Scenario
+%{
+ batch_run_config_files.m
 
+ Runs all configuration files in the given directory and returns the specified result outputs 
+ 
+ INPUTS:
+ directory_name - location of files to be run
+ run_times - number of times to run each file
+ sampling_interval - how often to record measurements (seconds)
+ duration - length of simulation (seconds)
+ output - type of data to output
+    Currently supports: 'travel_time'
 
-Currently supported types of outputs:
-output = 
-'travel_time'
+ OUTPUT:
+ struct with info about experiment and includes 3D matrix of results
+
 %}
 
 
-% normal params: run_times = 100, sampling_interval = 60 seconds,
-% duration = 3600 seconds
-% outputs struct, which includes 3D matrix
-function [] = batch_run_config_files(directory, run_times, sampling_interval, duration, output)
 
-    xml_files = directory(arrayfun(@(z) ~isempty(strfind(z.name,'.xml')), directory));
+
+%{ 
+ TODO:
+0. Test directory input, might not be working yet
+1. Support other types of outputs and find elegant way to implement feature
+2. Test function
+3. Find best way to represent output data
+4. Make sure it's okay to use ScenarioContainer instead of Scenario
+%}
+
+
+
+function [] = batch_run_config_files(directory_name, run_times, sampling_interval, duration, output)
+
+    % find all .xml config files in given directory
+    files = dir directory_name
+    xml_files = files(arrayfun(@(z) ~isempty(strfind(z.name,'.xml')), files));
 
     for counter = 1:numel(xml_files)
         get_results(xml_files(counter).name, run_times, sampling_interval, duration, output);

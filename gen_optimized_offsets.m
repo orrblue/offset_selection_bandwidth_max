@@ -1,8 +1,29 @@
 %{
+ gen_optimized_offsets.m
+
+ Calculates optimized offsets for a configuration file and saves new configuration file at current directory 
+ 
+ INPUTS:
+ config_file - name of config_file (in current directory) to be used
+ path_ids - the ids of paths to optimize
+ weights - the weights of each path
+ save_name - name for newly saved config file
+
+ OUTPUT:
+ None
+
+%}
+
+
+
+
+
+%{
 TODO:
 1. Find Best way to pass null value in Matlab
 2. Find what bs is in b max clean
 3. Test
+4. Write error checks
 %}
 
 function [] = gen_optimized_offsets(config_file, path_ids, weights, save_name)
@@ -37,7 +58,7 @@ function [] = gen_optimized_offsets(config_file, path_ids, weights, save_name)
         % check node_id matches and set offset on node_id
         cid = X.scenario.get_controllerid_for_nodeid(node_id);
         cind = cid==controller_ids;
-        if sum(cind)~=1
+        if sum(cind) ~= 1
             error('sum(cind)~=1')
         end
         xml.scenario.scenario.controllers.controller(cind).schedule.schedule_item.ATTRIBUTE.offset = offset;
