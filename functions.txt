@@ -1,9 +1,9 @@
-% saves new xml file
-function [] = make_xml_with_optimized_offsets(config_file, path_ids, weights)
 
 
-% no weights bc randomized
-function [] = get_xml_with_randomized_offsets(config_file, path_ids, cycle_time)
+function gen_optimized_offsets(config_file, path_ids, weights, save_name)
 
 
-function [] = run_experiments(dir, run_times, sampling_time, duration)
+function gen_random_offsets(config_file, cycle_time, save_name)
+
+
+function batch_run_config_files(directory, run_times, sampling_interval, duration, output)

@@ -16,3 +16,6 @@ octave-workspace
 
 # Simulink autosave extension
 *.autosave
+
+# Gurobi logs
+*.log

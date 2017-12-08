@@ -1,3 +1,10 @@
+%{
+TODO:
+1. Find Best way to pass null value in Matlab
+2. Find what bs is in b max clean
+3. Test
+%}
+
 function [] = gen_optimized_offsets(config_file, path_ids, weights, save_name)
     here = fileparts(mfilename('fullpath'));
     config_file = fullfile(here, config_file);
@@ -16,7 +23,7 @@ function [] = gen_optimized_offsets(config_file, path_ids, weights, save_name)
         end
     end
     
-    [bs, offsets] = b_max_clean(config_file, paths_ids, weights)
+    [bs, offsets] = b_max_clean(config_file, paths_ids, weights);
 
     % read offsets map, go into XML file and update all the offsets using the map
     for key = offsets.keys
@@ -24,11 +31,8 @@ function [] = gen_optimized_offsets(config_file, path_ids, weights, save_name)
         % list of controller_ids from config file
         controller_ids = arrayfun(@(z) z.ATTRIBUTE.id , xml.scenario.scenario.controllers.controller);
 
-        node_id = key{1}
-        offset = offsets(key{1})
-
-    %     disp(key{1})
-    %     disp(offsets(key{1}))
+        node_id = key{1};
+        offset = offsets(key{1});
 
         % check node_id matches and set offset on node_id
         cid = X.scenario.get_controllerid_for_nodeid(node_id);
@@ -37,10 +41,8 @@ function [] = gen_optimized_offsets(config_file, path_ids, weights, save_name)
             error('sum(cind)~=1')
         end
         xml.scenario.scenario.controllers.controller(cind).schedule.schedule_item.ATTRIBUTE.offset = offset;
-
-
     end
 
-    xml.scenario.save(fullfile(here,'test'));
+    xml.scenario.save(fullfile(here,save_name));
 end
 
