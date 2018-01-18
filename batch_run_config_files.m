@@ -4,7 +4,7 @@
  Runs all configuration files in the given directory and returns the specified result outputs 
  
  INPUTS:
- directory_name - location of files to be run
+ directory - absolute path of directory containing configuration files to be run
  run_times - number of times to run each file
  sampling_interval - how often to record measurements (seconds)
  duration - length of simulation (seconds)
@@ -30,36 +30,36 @@
 
 
 
-function [] = batch_run_config_files(directory_name, run_times, sampling_interval, duration, output)
+function [] = batch_run_config_files(directory, run_times, sampling_interval, duration, output)
 
     % find all .xml config files in given directory
-    files = dir directory_name
+    files = dir(directory) 
     xml_files = files(arrayfun(@(z) ~isempty(strfind(z.name,'.xml')), files));
 
     for counter = 1:numel(xml_files)
-        get_results(xml_files(counter).name, run_times, sampling_interval, duration, output);
+        get_results(xml_files(counter).name, directory, run_times, sampling_interval, duration, output);
     end 
 
 end
 
 
 
-function output_matrix = get_results(file_name, run_times, sampling_interval, duration, output)
+function output_matrix = get_results(file_name, directory, run_times, sampling_interval, duration, output_type)
     
     
-    here = fileparts(mfilename('fullpath'));
-    config_file = fullfile(here, file_name);
+    % here = fileparts(mfilename('fullpath'));
+    config_file = fullfile(directory, file_name);
 
     xml = ScenarioContainer(config_file);
-    num_subnetworks = numel(xml.scenario.subnetworks.subnetwork);
-    subs_ids = arrayfun(@(z) z.ATTRIBUTE.id, xml.scenario.subnetworks.subnetwork);
+    num_subnetworks = numel(xml.scenario.scenario.subnetworks.subnetwork);
+    subs_ids = arrayfun(@(z) z.ATTRIBUTE.id, xml.scenario.scenario.subnetworks.subnetwork);
     
-    % output matrix of num subnets x num samples x num runs
+    % output matrix of num subnets * num samples * num runs
     output_matrix = zeros(num_subnetworks, (duration/sampling_interval), run_times);
     beats = BeATSWrapper(config_file);
     
     for counter = 1:num_subnetworks
-            if output == 'travel_time'
+            if output_type == 'travel_time'
                 beats.api.request_path_travel_time(subs_ids(counter), sampling_interval)
             end
     end
@@ -73,7 +73,7 @@ function output_matrix = get_results(file_name, run_times, sampling_interval, du
         for counter = 1:num_subnetworks
             data = data_iter.next();
             for time = sampling_interval : sampling_interval : duration %begin time after one output frequency has passed
-                if output == 'travel_time'
+                if output_type == 'travel_time'
                     output_matrix(counter, (time/sampling_interval), run_counter) = data.compute_travel_time_for_start_time(time);
                 end
             end
@@ -89,8 +89,9 @@ function output_matrix = get_results(file_name, run_times, sampling_interval, du
     result.subnetwork_ids = subs_ids;
     
     
+    [~, ~] = mkdir(directory, 'experiment_results');
     [~,name]=fileparts(file_name);
-    save([name, '_result'],'result');
+    save(fullfile(directory, 'experiment_results', [name, '_result']),'result');
 
 
 end
