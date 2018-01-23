@@ -1,9 +1,9 @@
 %{
  gen_optimized_offsets.m
 
- Calculates optimized offsets for a configuration file and saves new 
- configuration file. New file is saved in a direcotry on the same level as
- the original file. Directory is called 'optimized_config_files' and is
+ Calculates optimized offsets for a specified configuration file and saves 
+ new configuration file. New file is saved in a directory on the same level 
+ as the original file. Directory is called 'optimized_config_files' and is
  created if not already present.
  
  INPUTS:
